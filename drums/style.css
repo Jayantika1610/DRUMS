@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(92, 20, 76);
+    background-color: rgb(0, 0, 0);
     margin-left: 0px;
 }
 .title{
@@ -7,7 +7,10 @@ body{
     justify-content: center;
     display: flex;
     font-size: 5rem;
-    color:rgb(13, 15, 10);
+    color:white;
+}
+span:hover{
+    color: purple;
 }
 .set{
     align-items: center;
@@ -21,7 +24,7 @@ body{
     width:8rem;
     border-radius: 10%;
     font-family:'Arvo',cursive;
-    border:10px solid #404B69;
+    border:10px solid #3c0e35;
     line-height: 2;
     font-weight: 900;
     display: inline-block;
@@ -31,25 +34,25 @@ body{
     color: rgb(27, 10, 13);
 }
 .w{
-    background-image: url("/images/tom1.png");
+    background-image: url("images/tom1.png");
 }
 .a{
-    background-image: url("/images/tom2.png");
+    background-image: url("images/tom2.png");
 }
 .s{
-    background-image: url("/images/tom3.png");
+    background-image: url("images/tom3.png");
 }
 .d{
-    background-image: url("/images/tom4.png");
+    background-image: url("images/tom4.png");
 }
 .j{
-    background-image: url("/images/snare.png");
+    background-image: url("images/snare.png");
 }
 .k{
-    background-image: url("/images/crash.png");
+    background-image: url("images/crash.png");
 }
 .l{
-    background-image: url("/images/kick.png");
+    background-image: url("images/kick.png");
 }
 .pressed{
     box-shadow: 0 3px 4px 0 #dbedf3;
@@ -59,7 +62,7 @@ footer{
     align-items: center;
     justify-content: center;
     display: flex;
-    background-color: rgb(238, 189, 243);
+    background-color: rgb(88, 18, 88);
     bottom: 0;
     position:absolute;
     width: 100%;

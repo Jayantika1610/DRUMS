@@ -1,0 +1,21 @@
+*{
+    background-color: black;
+}
+
+body{
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.heading{
+    margin-top: 10rem;
+    font-size: 5rem;
+}
+.choice{
+    border-color: white;
+}
+.ntitle:hover{
+    color: purple;
+}
