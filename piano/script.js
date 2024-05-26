@@ -36,3 +36,6 @@ const changeVolume=(e)=>{
 }
 
 volSlider.addEventListener("input", changeVolume);
+
+// fix volume slider
+// add keys feature to play with keyboard keys
