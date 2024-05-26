@@ -30,7 +30,9 @@ nav {
     height: 120px;
 }
 
-
+.content{
+    margin-top: 3rem;
+}
 .heading {
     margin-top: 4rem;;
     font-size: 4.5rem;
