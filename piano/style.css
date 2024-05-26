@@ -13,8 +13,12 @@ nav{
     align-items: center;
     justify-content: center;
     padding: 1.6rem;
-    font-size: 1.9rem;
+    font-size: 2rem;
     font-weight: 800;
+    color: white;
+}
+nav span:hover{
+    color: purple;
 }
 .cover{
     width: 780px;
@@ -102,6 +106,10 @@ header span{
 .allkeys .black:active{
     box-shadow: inset -5px 5px 20px rgba(255,255,255,0.3)
 }
+
+.volume-slid{
+    margin-left: 540px;
+}
 footer{
     align-items: center;
     justify-content: center;
@@ -113,5 +121,6 @@ footer{
     height:60px;
     color: black;
     font-size: 1.4rem;
+    font-weight: 800;
 }
 
