@@ -1,21 +1,99 @@
-*{
+* {
     background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-   color: white;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+body {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 
-.heading{
-    margin-top: 10rem;
-    font-size: 5rem;
+.logo {
+    width: 135px;
+    height: 120px;
 }
-.choice{
-    border-color: white;
+
+
+.heading {
+    margin-top: 4rem;;
+    font-size: 4.5rem;
+    transition: color 0.3s ease-in-out;
 }
-.ntitle:hover{
+
+.ntitle:hover {
     color: purple;
+}
+
+.choices {
+    display: flex;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.choice {
+    width: 340px;
+    height: 340px;
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    position: relative;
+    
+}
+
+.choice a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    z-index: 2;
+    
+}
+
+.choice.drum {
+    background: url('drumsmain.jpg') no-repeat center center / cover;
+    margin-left: 3rem;
+}
+
+.choice.piano {
+    background: url('pianomain.jpg') no-repeat center center / cover;
+    margin-left: 3rem;
+}
+
+.choice::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.choice:hover {
+    transform: scale(1.1);
+    border-color: purple;
+}
+
+.choice:hover::before {
+    background-color: rgba(0, 0, 0, 0.3);
 }
