@@ -26,8 +26,8 @@ nav {
 }
 
 .logo {
-    width: 135px;
-    height: 120px;
+    width: 115px;
+    height: 100px;
 }
 
 .content{
@@ -45,7 +45,7 @@ nav {
 .choices {
     display: flex;
     gap: 2rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .choice {
