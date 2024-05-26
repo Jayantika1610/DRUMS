@@ -34,7 +34,6 @@ nav {
     margin-top: 3rem;
 }
 .heading {
-    margin-top: 4rem;;
     font-size: 4.5rem;
     transition: color 0.3s ease-in-out;
 }
@@ -50,8 +49,8 @@ nav {
 }
 
 .choice {
-    width: 340px;
-    height: 340px;
+    width: 270px;
+    height: 270px;
     border: 3px solid white;
     display: flex;
     align-items: center;
